@@ -21,12 +21,12 @@ The function should print and
 return the area.
 '''
 def circleArea():
-    radius = input"What is the radius of your circle?")
+    radius = input("What is the radius of your circle?")
     
     pi = 3.14
     squared = int(radius) * int(radius)
     area = pi * squared 
-    print("The area is: " + area)
+    print(("The area is: ") + area)
     return area
 
 #Leave the next line alone
@@ -43,7 +43,7 @@ the area.
 The function prints and returns the area.
 '''
 def rectangleArea():
-    = input("What is the height of your rectangle?")
+    height = input("What is the height of your rectangle?")
     width = input()
     
     area = int(height) * int(width)
