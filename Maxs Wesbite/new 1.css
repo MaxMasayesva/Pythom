@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "font";
+	src: url("fonts/font.ttf");
+}
+
+body{
+	background-image: url("images/lemon.jpg");
+	background-size:15%;
+}
+
+#wrap {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+header {
+	
+}
+
+main {
+	overflow: hidden;
+}
+
+
+nav {
+	background-image: url("images/gradient.png");
+	background-repeat: repeat-x;
+	width: 200px;
+	float: right;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+	
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+font-family: font;
+font-size: 16pt;
+color: #FFDC00;
+} 
+
+button {
+	width: 150px;
+	background-color: #FAF28E;
+	padding: 15px 30px;
+	margin-top: 15px;
+	text-align: center;
+	
+}
+
+#content { 
+	background-color: #ffffff;
+	width: 560px;
+	padding: 20px;
+	float: left;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+}
+
+footer {
+	background-image: url("images/footer.jpg");
+	height: 60px;
+	padding-left: 20px;
+	padding-top:35px;
+	clear: both;
+	
+}
